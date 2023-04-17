@@ -1,0 +1,10 @@
+<!-- As a link -->
+<nav class="navbar bg-dark bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">POKEMONAPP</a>
+        <div>
+            Pokemon Favorito:
+            <button mat-raised-button mat-button (click)="openDialog()" color="warn">{{pokemon.name | titlecase}}</button>
+        </div>
+    </div>
+</nav>
